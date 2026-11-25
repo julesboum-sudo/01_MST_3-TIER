@@ -1,6 +1,6 @@
 # 🌐 Architecture Réseau d'Entreprise Haute Disponibilité (MSTP, HSRP, OSPF, LACP)
 
-Ce dépôt présente la conception, la configuration et la validation d'une architecture réseau hiérarchique à trois couches (**Cœur, Distribution, Accès**) assurant la redondance des liens, la répartition de charge et l'accès à Internet sous Cisco IOS.
+Ce dépôt présente la conception, la configuration et la validation d'une architecture réseau hiérarchique à trois couches (**Cœur, Distribution, Accès**) assurant la redondance des liens, la répartition de charge et l'accès à Internet sous Cisco IOS (maquette réalisée sous **EVE-NG**).
 
 ---
 
@@ -80,7 +80,8 @@ Le dépôt est organisé de la manière suivante :
 
 ```text
 ├── README.md                                                 # Documentation générale du projet
-├── TOPOLOGIE.jpg                                             # Schéma complet de l'architecture réseau
+├── TOPOLOGIE.png                                             # Schéma complet de l'architecture réseau
+├── 01_MST.unl                                                # Fichier de topologie EVE-NG prêt à importer
 ├── Rapport_BOUM_LIKAK_JULES_DAROLD_23P065_TPE_01_MST.pdf     # Rapport détaillé (configurations et vérifications)
 └── configs/                                                  # Fichiers de configuration Cisco IOS par couche
     ├── 01-Coeur/
