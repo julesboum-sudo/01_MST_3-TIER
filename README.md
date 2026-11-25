@@ -6,7 +6,7 @@ Ce dépôt présente la conception, la configuration et la validation d'une arch
 
 ## 📐 Topologie du Réseau
 
-![Topologie du réseau](TOPOLOGIE.jpg)
+![Topologie du réseau](TOPOLOGIE.png)
 
 ---
 
